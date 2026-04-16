@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": [
+      "WORK",
+      "CLOSE FRIEND"
+    ],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on_track",
+    "tags": [
+      "FAMILY"
+    ],
+    "bio": "Colleague from work. Great at teamwork.",
+    "goal": 10,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Michael Lee",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": [
+      "WORK"
+    ],
+    "bio": "Gym partner. Motivates me daily.",
+    "goal": 15,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "email": "emily@example.com",
+    "days_since_contact": 10,
+    "status": "almost_due",
+    "tags": [
+      "HOBBY",
+      "TRAVEL"
+    ],
+    "bio": "Best friend since school days.",
+    "goal": 12,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 5,
+    "name": "David Smith",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "david@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": [
+      "FAMILY"
+    ],
+    "bio": "Cousin. Lives abroad.",
+    "goal": 20,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 6,
+    "name": "Aisha Rahman",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "email": "aisha@example.com",
+    "days_since_contact": 8,
+    "status": "on_track",
+    "tags": [
+      "NEIGHBOR"
+    ],
+    "bio": "Friendly neighbor. Loves cooking.",
+    "goal": 10,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 7,
+    "name": "Chris Brown",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "email": "chris@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": [
+      "MUSIC"
+    ],
+    "bio": "Bandmate. Plays guitar.",
+    "goal": 14,
+    "next_due_date": "2025-07-19"
+  },
+  {
+    "id": 8,
+    "name": "Fatima Noor",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "fatima@example.com",
+    "days_since_contact": 3,
+    "status": "on_track",
+    "tags": [
+      "UNIVERSITY"
+    ],
+    "bio": "Study partner from university.",
+    "goal": 7,
+    "next_due_date": "2025-07-27"
+  },
+  {
+    "id": 9,
+    "name": "James Wilson",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "james@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": [
+      "TRAVEL",
+      "BUDDY"
+    ],
+    "bio": "Travel buddy. Explored many places together.",
+    "goal": 21,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 10,
+    "name": "Nusrat Jahan",
+    "picture": "https://i.pravatar.cc/150?img=10",
+    "email": "nusrat@example.com",
+    "days_since_contact": 6,
+    "status": "on_track",
+    "tags": [
+      "FRIEND"
+    ],
+    "bio": "Close friend. Always supportive.",
+    "goal": 10,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 11,
+    "name": "Rahim Uddin",
+    "picture": "https://i.pravatar.cc/150?img=11",
+    "email": "rahim@example.com",
+    "days_since_contact": 13,
+    "status": "almost_due",
+    "tags": [
+      "WORK"
+    ],
+    "bio": "Office senior. Helpful and kind.",
+    "goal": 14,
+    "next_due_date": "2025-07-21"
+  },
+  {
+    "id": 12,
+    "name": "Karim Hasan",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "karim@example.com",
+    "days_since_contact": 2,
+    "status": "on_track",
+    "tags": [
+      "HOBBY"
+    ],
+    "bio": "Football partner.",
+    "goal": 7,
+    "next_due_date": "2025-07-29"
+  }
+]
