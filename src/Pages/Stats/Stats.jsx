@@ -26,11 +26,35 @@ const Stats = () => {
     { name: "Video", value: counts.video },
   ];
 
- 
+  const COLORS = ["#1451f8", "#027f75", "#f64459"];
+
  
   return (
-    <div>
+    <div className="min-h-[60vh] w-10/12 mx-auto py-10">
+      <h1 className="text-3xl font-bold mb-6">📊 Activity Stats</h1>
 
+      <div className="bg-white p-6 rounded-xl shadow flex justify-center">
+      
+        <PieChart width={300} height={300}>
+          <Pie
+            data={chartData}
+            dataKey="value"
+            nameKey="name"
+            cx="50%"
+            cy="50%"
+            outerRadius={100}
+            innerRadius={50}
+            label
+          >
+            {chartData.map((_, index) => (
+              <Cell key={index} fill={COLORS[index]} />
+            ))}
+          </Pie>
+
+          <Tooltip />
+          <Legend />
+        </PieChart>
+      </div>
     </div>
   );
 };
