@@ -28,13 +28,14 @@ const Stats = () => {
 
   const COLORS = ["#1451f8", "#027f75", "#f64459"];
 
- 
+  const total = counts.call + counts.text + counts.video;
+
   return (
     <div className="min-h-[60vh] w-10/12 mx-auto py-10">
       <h1 className="text-3xl font-bold mb-6">📊 Activity Stats</h1>
 
       <div className="bg-white p-6 rounded-xl shadow flex justify-center">
-      
+        <h1 className="font-bold text-2xl  mb-2 absolute">TOTAL  :  {total}</h1>
         <PieChart width={300} height={300}>
           <Pie
             data={chartData}
